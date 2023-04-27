@@ -61,6 +61,21 @@ li{
   padding-left: 25px;
 }
 
+footer{
+  margin: 20px 10px;
+}
+
+.medias{
+  display: flex;
+  justify-content: center;
+}
+
+.medias li{
+  list-style-type: none;
+  font-size: 25px;
+  margin: 10px;
+}
+
 @media (max-width:768px) {
   header h2{
     font-size: 20px;
@@ -76,7 +91,11 @@ li{
     padding: 10px;
     border: none;
   }
-  
+  .medias li{
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+  }
 
 
 }
